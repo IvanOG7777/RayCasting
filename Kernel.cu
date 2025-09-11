@@ -79,26 +79,41 @@ __host__ __device__ inline float3x clamp01(const float3x &c) {
 }
 
 struct Ray {
-	float3x o;
-	float3x d;
+	float3x origin;
+	float3x direction;
 };
 
 
 // declaration to create a sphere object
 struct Sphere {
-	float3x circumfrence;
-	float radius;
-	float3x color;
+	float3x center; // position of sphere in 3D space
+	float radius; // radius of shpere
+	float3x color; // RGB color
 };
 
 struct Plane {
-	float3x normal;
-	float d;
-	float3x colorA;
-	float3x colorB;
-	float cell = 1.0f;
+	float3x normal; // orientation of the plane
+	float distance; // distance form origin
+	float3x colorA; // one color (checker pattern)
+	float3x colorB; // alternate color
+	float cell = 1.0f; // size of checker cells
 };
 
 struct Camera {
+	float3x eye; // camera position
+	float3x u; // right vector (x-axis of camera space)
+	float3x v; // up vector (y-axis of camera space)
+	float3x w; // backwards vector (z-axis of camera space)
 
-};
+	float tanHalFov; // tangent of half the field of view
+	float aspectRatio; // width / height
+}; 
+
+__host__ __device__ inline Ray makePrimaryRay(const Camera& camera, int x, int y, int W, int H) {
+	float px = ((x + 0.5f) / (float)W * 2.f - 1.f) * camera.aspectRatio * camera.tanHalFov;
+
+	float py = (1.f - (y + 0.5f) / (float)H * 2.f) * camera.tanHalFov;
+
+	float3x direction = normalize(camera.u * px + camera.v * py - camera.w);
+	return {camera.eye, direction}; // return the camera.eye as the origin and direction as direction
+}
