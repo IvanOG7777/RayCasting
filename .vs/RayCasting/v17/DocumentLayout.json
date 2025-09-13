@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{06886F10-2E2A-A22C-A2D5-E5A9449CD6FC}|RayCasting.vcxproj|solutionrelative:Kernel.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06886F10-2E2A-A22C-A2D5-E5A9449CD6FC}|RayCasting.vcxproj|C:\\Users\\elder\\OneDrive\\Desktop\\C\u002B\u002BProjects\\RayCasting\\Kernel.cuh||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{06886F10-2E2A-A22C-A2D5-E5A9449CD6FC}|RayCasting.vcxproj|solutionrelative:Kernel.cuh||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{06886F10-2E2A-A22C-A2D5-E5A9449CD6FC}|RayCasting.vcxproj|C:\\Users\\elder\\OneDrive\\Desktop\\C\u002B\u002BProjects\\RayCasting\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{06886F10-2E2A-A22C-A2D5-E5A9449CD6FC}|RayCasting.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06886F10-2E2A-A22C-A2D5-E5A9449CD6FC}|RayCasting.vcxproj|C:\\Users\\elder\\OneDrive\\Desktop\\C\u002B\u002BProjects\\RayCasting\\Kernel.cuh||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{06886F10-2E2A-A22C-A2D5-E5A9449CD6FC}|RayCasting.vcxproj|solutionrelative:Kernel.cuh||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Kernel.cuh",
               "DocumentMoniker": "C:\\Users\\elder\\OneDrive\\Desktop\\C\u002B\u002BProjects\\RayCasting\\Kernel.cuh",
               "RelativeDocumentMoniker": "Kernel.cuh",
@@ -38,8 +38,7 @@
               "RelativeToolTip": "Kernel.cuh",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-09-11T17:00:57.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T17:00:57.061Z"
             },
             {
               "$type": "Document",
@@ -49,23 +48,22 @@
               "RelativeDocumentMoniker": "Kernel.cu",
               "ToolTip": "C:\\Users\\elder\\OneDrive\\Desktop\\C\u002B\u002BProjects\\RayCasting\\Kernel.cu",
               "RelativeToolTip": "Kernel.cu",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAswGcAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAABoAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-09-11T17:00:41.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Main.cpp",
               "DocumentMoniker": "C:\\Users\\elder\\OneDrive\\Desktop\\C\u002B\u002BProjects\\RayCasting\\Main.cpp",
               "RelativeDocumentMoniker": "Main.cpp",
               "ToolTip": "C:\\Users\\elder\\OneDrive\\Desktop\\C\u002B\u002BProjects\\RayCasting\\Main.cpp",
               "RelativeToolTip": "Main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-11T17:00:31.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T17:00:31.051Z"
             }
           ]
         }

@@ -1,11 +1,4 @@
-﻿  Compiling CUDA source file Kernel.cu...
-  
-  C:\Users\elder\OneDrive\Desktop\C++Projects\RayCasting>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.0\bin\nvcc.exe" -gencode=arch=compute_75,code=\"sm_75,compute_75\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.0\include" -I"C:\src\vcpkg\installed\x64-windows\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.0\include"  -G   --keep-dir RayCasting\x64\Debug  -maxrregcount=0    --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdRayCasting\x64\Debug\vc143.pdb" -o C:\Users\elder\OneDrive\Desktop\C++Projects\RayCasting\RayCasting\x64\Debug\Kernel.cu.obj "C:\Users\elder\OneDrive\Desktop\C++Projects\RayCasting\Kernel.cu" 
-  Kernel.cu
-  tmpxft_00000dd8_00000000-7_Kernel.cudafe1.cpp
-  Main.cpp
-     Creating library C:\Users\elder\OneDrive\Desktop\C++Projects\RayCasting\x64\Debug\RayCasting.lib and object C:\Users\elder\OneDrive\Desktop\C++Projects\RayCasting\x64\Debug\RayCasting.exp
-LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+﻿  Main.cpp
   RayCasting.vcxproj -> C:\Users\elder\OneDrive\Desktop\C++Projects\RayCasting\x64\Debug\RayCasting.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.
